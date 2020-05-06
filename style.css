@@ -51,7 +51,7 @@ input[type=text],input[type=number]{
     border-radius: 10px;
     outline-offset: inherit;
     border:none;
-        border-bottom: 4px solid #8842d5;
+        border-bottom: 4px solid gray;
     transition: all 0.5s ease-in-out;
     font-family: helvetica;
     
@@ -80,4 +80,5 @@ button:focus{
 footer{
     font-size: 12px;
     margin-top: 25%;
+    text-align:center;
 }
