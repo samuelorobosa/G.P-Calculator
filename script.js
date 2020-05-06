@@ -61,6 +61,8 @@ submit.addEventListener("click", function(){
         
         var creditLoad =  document.createElement("input");
         creditLoad.type="number";
+        creditLoad.min="0";
+        creditLoad.max="20"
         creditLoad.className="creditLoad";
         cl.appendChild(creditLoad);
         
